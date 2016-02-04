@@ -1,0 +1,32 @@
+{
+  "name": "acuity-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browserify src/index.js -o public/index.js | node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "acuityscheduling": "^0.1.4",
+    "body-parser": "^1.14.2",
+    "bootstrap": "^3.3.6",
+    "connect-livereload": "^0.5.4",
+    "express": "^4.13.4",
+    "fullcalendar": "^2.6.0",
+    "handlebars": "^4.0.5",
+    "hbsfy": "^2.4.1",
+    "jquery": "^2.2.0",
+    "livereload": "^0.4.1",
+    "moment": "^2.11.2",
+    "watchify": "^3.7.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "hbsfy"
+      ]
+    ]
+  }
+}

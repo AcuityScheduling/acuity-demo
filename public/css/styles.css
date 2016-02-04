@@ -1,0 +1,32 @@
+.fc-content {
+  cursor: pointer;
+}
+#classes {
+  margin: 48px 18%;
+}
+
+.chicklet {
+  display: inline-block;
+  width: 8px;
+  height: 28px;
+  margin-right: 6px;
+  border-radius: 3px;
+  position: absolute;
+  margin-left: -12px;
+  margin-top: -2px;
+}
+.modal-title {
+  padding-left: 12px;
+}
+.modal-body {
+  height: 280px;
+}
+.modal-body .loading {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  color: #aa9;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
